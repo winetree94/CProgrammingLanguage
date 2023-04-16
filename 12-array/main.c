@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define SIZE 50.3
+
 int main(int argc, char *argv[]) {
   printf("hello world!");
 
@@ -14,6 +16,8 @@ int main(int argc, char *argv[]) {
 
   printf("size of arr2: %lu", sizeof arr2);
   printf("length of arr2: %lu", sizeof arr2 / sizeof arr2[0]);
+
+  printf("size %f", SIZE);
 
   int arr3[sizeof arr2];
 
